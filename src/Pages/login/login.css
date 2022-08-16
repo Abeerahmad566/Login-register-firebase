@@ -1,0 +1,55 @@
+
+
+.login{
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+.lgntxt {
+  font-size: 6vw;
+  color: #1e90ff;
+}
+.imgWrapper {
+  width: 100%;
+}
+.loginTitle {
+  font-size: 50px;
+}
+.imgcolWrapper {
+  margin-right: 30%;
+}
+#colWrapper {
+  margin-top: 10%;
+}
+.siginbtn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.fgpsslink:hover{
+  opacity: 0.5;
+}
+.fgpsslink {
+  text-decoration: none;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+@media (max-width: 500px) {
+  .lgntxt {
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10%;
+  }
+  .loginwrapper{
+    margin-left: 40%;
+  }
+  .imgWrapper{
+    margin-left: 20%;
+  }
+ 
+}

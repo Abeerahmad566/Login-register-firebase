@@ -1,0 +1,81 @@
+
+.rgstrpic{
+  margin-top: 10%;
+}
+.rgstrtxt {
+  font-size: 50px;
+  color: #1e90ff;
+ 
+}
+.registerInput{
+  border:1px solid#ccc;
+  border-radius: 5px;
+  height: 30px;
+  width:40%
+}
+.registerInputerror{
+  border:2px solid red;
+  border-radius: 5px;
+  height: 30px;
+ 
+}
+.registerInput:focus{
+  border:1px solid black
+}
+
+.pregisterInput{
+  border:1px solid#ccc;
+  border-radius: 5px;
+  height: 30px;
+  width:40%
+}
+.pregisterInputerror{
+  border:2px solid red;
+  border-radius: 5px;
+  height: 30px;
+  width:40%
+ 
+}
+.pregisterInput:focus{
+  border:1px solid black
+}
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.btnimg{
+border: none;
+background-color: 1e90ff;
+color: aliceblue;
+padding: 5px;
+border-radius: 20%;
+margin-top: 1%;
+}
+
+@media (max-width: 500px) {
+  .rgstrpic {
+    width: 100%;
+  }
+  .pregisterInput{
+    width: 64%;
+  }
+  .pregisterInputerror
+  {
+    width: 64%;
+  }
+  .registerwrapper{
+    margin-left: 10%;
+  }
+  .rgstrtxt{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 10%;
+  }
+}
